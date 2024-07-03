@@ -69,16 +69,22 @@ a {
 }
 .overview_content {
   display: flex;
-  /* align-items: end; */
+  align-items: end;
   justify-content: space-between;
 }
-.h-half {
-  height: 50%;
+
+.overview_heading {
+  position: absolute;
+  top: 0;
 }
+
 .overview_box {
   background-color: white;
   padding: 20px;
   border-radius: 12px;
+}
+.overview_box .star {
+  width: 26px;
 }
 .overview_box h2 {
   font-size: 32px;
@@ -87,8 +93,21 @@ a {
 .overview_box p {
   max-width: 150px;
   color: rgb(81, 80, 80);
-  margin: 12px 0 25px;
 }
 .overview_box img {
   max-width: 150px;
+}
+
+.person_images img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+  margin-left: -15px;
+  object-fit: cover;
+}
+.h-half img {
+  width: 70px;
+  height: 70px;
 }
