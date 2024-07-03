@@ -9,6 +9,15 @@
   font-family: "Inter", sans-serif;
 }
 
+.btn {
+  background-color: transparent;
+  padding: 10px 15px;
+  color: #020043;
+  border: 2px solid #020043;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
 /* container box */
 .container {
   max-width: 80%;
@@ -18,6 +27,7 @@
 /* body */
 body {
   font-family: "Inter", sans-serif;
+  background-color: #fbfbfb;
 }
 
 .top_blur {
@@ -66,9 +76,6 @@ a {
 .overview {
   margin-top: 60px;
   position: relative;
-
-  /* Todo: remove mb & pb */
-  margin-bottom: 100px;
   padding-bottom: 100px;
 }
 .overview_content {
@@ -128,18 +135,10 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
+  margin-top: 120px;
 }
-.about_left {
-}
-.about_left button {
-  background-color: transparent;
-  padding: 10px 15px;
-  color: #020043;
-  border: 2px solid #020043;
-  border-radius: 18px;
-  cursor: pointer;
-}
+
 .about_left h2 {
   font-size: 36px;
   line-height: 40px;
@@ -147,6 +146,146 @@ a {
   margin: 24px 0;
 }
 .about_left p {
+  max-width: 500px;
   color: #4d4c7b;
   line-height: 22px;
+  margin-bottom: 20px;
+}
+.about_left .learn_more_btn {
+  background-color: #ffc637;
+  padding: 10px 15px;
+  color: #000000;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.about_left .learn_more_btn i {
+  margin-left: 5px;
+  color: #020043;
+}
+.about_right {
+  position: relative;
+}
+.mission_card {
+  position: absolute;
+  bottom: -40px;
+  left: -80px;
+  max-width: 400px;
+  background-color: #343268;
+  padding: 32px 20px;
+  border-radius: 18px;
+}
+.mission_card h2 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+.mission_card p {
+  color: #d6d6e1;
+  line-height: 24px;
+}
+
+/* service */
+.service {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px 24px;
+  margin-top: 190px;
+}
+.service .service_title {
+  line-height: 55px;
+}
+.service .service_desc {
+  line-height: 30px;
+  margin-bottom: 45px;
+}
+.service_box {
+  position: relative;
+}
+.service_box img {
+  width: 100%;
+  border-radius: 25px;
+}
+.service_card {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  max-width: 400px;
+  /* background-color: #343268; */
+  background-color: #343268d8;
+  opacity: 1;
+  padding: 32px 20px;
+  border-radius: 18px;
+}
+.service_card h2 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+.service_card p {
+  color: #d6d6e1;
+  line-height: 24px;
+}
+.service_arrow {
+  position: inherit;
+  background-color: #ffc637;
+  color: #fff;
+  padding: 12px;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.appointment_bold {
+  font-weight: 500;
+}
+/* testimonal */
+.testimonal {
+  margin-top: 190px;
+}
+.testimonal_title {
+  font-size: 32px;
+  color: #020043;
+  margin-top: 20px;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.testimonal_container {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.testimonal_card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 12px;
+}
+.testimonal_card h3 {
+  color: #020043;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.testimonal_card p {
+  color: #4d4c7b;
+  line-height: 20px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.stars i {
+  color: #ffc637;
 }
