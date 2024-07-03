@@ -51,10 +51,12 @@ body {
 
 .navbar .menu li,
 a {
-  font-size: 18px;
-  color: #0c0b0b;
   list-style: none;
   text-decoration: none;
+}
+.navbar .menu li a {
+  font-size: 18px;
+  color: #0c0b0b;
 }
 .appointment_btn {
   background-color: transparent;
@@ -71,6 +73,9 @@ a {
 .hero_content img {
   width: 100%;
 }
+.hero_image {
+  filter: opacity(85%);
+}
 
 /* overview section */
 .overview {
@@ -83,7 +88,6 @@ a {
   align-items: end;
   justify-content: space-between;
 }
-
 .overview_heading {
   position: absolute;
   top: -10px;
@@ -97,7 +101,6 @@ a {
   font-size: 40px;
   color: #020043;
 }
-
 .overview_box {
   background-color: white;
   padding: 20px;
@@ -108,17 +111,24 @@ a {
   width: 26px;
 }
 .overview_box h2 {
+  color: #020043;
   font-size: 32px;
   font-weight: 700;
 }
 .overview_box p {
   max-width: 150px;
-  color: rgb(81, 80, 80);
+  color: #343268;
 }
 .overview_box img {
-  max-width: 150px;
+  max-width: 140px;
 }
-
+.overview_content .first_last p {
+  margin-top: 10px;
+  margin-bottom: 14px;
+}
+.overview_content .middle p {
+  margin: 12px 0;
+}
 .person_images img {
   width: 30px;
   height: 30px;
@@ -128,9 +138,17 @@ a {
   margin-left: -15px;
   object-fit: cover;
 }
+.person_images img:first-child {
+  margin-left: 0;
+}
 .h-half img {
   width: 70px;
   height: 70px;
+  margin-left: 80px;
+}
+.h-half p {
+  margin-top: 10px;
+  margin-bottom: 14px;
 }
 
 /* Who we are - About us */
@@ -199,9 +217,13 @@ a {
   line-height: 55px;
 }
 .service .service_desc {
-  line-height: 30px;
-  margin-bottom: 45px;
+  line-height: 36px;
+  margin-bottom: 48px;
 }
+.service_content h2 {
+  margin-bottom: 36px;
+}
+
 .service_box {
   position: relative;
 }
@@ -433,12 +455,12 @@ a {
 .footer_content p {
   color: #ccccd1;
 }
-.nav_links {
+.footer .nav_links {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.nav_links li,
+.footer .nav_links li,
 a {
   text-decoration: none;
   list-style: none;
