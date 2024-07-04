@@ -93,6 +93,9 @@
   .menu_bar {
     display: flex;
   }
+  .logo img {
+    width: 85px;
+  }
   .navbar .menu {
     display: none;
   }
