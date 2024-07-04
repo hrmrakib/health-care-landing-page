@@ -1,0 +1,82 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  /* navbar */
+  .navbar {
+    height: 100px;
+  }
+  .navbar .menu {
+    gap: 14px;
+  }
+
+  /* overview */
+  .overview_heading {
+    top: -16px;
+    justify-content: flex-end;
+  }
+  .overview_heading h2 {
+    font-size: 30px;
+  }
+  .overview_content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /*  */
+}
+
+/* mobile responsive */
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 94%;
+    margin: 0 auto;
+  }
+
+  /* navbar */
+  .navbar {
+    height: 80px;
+  }
+  .logo img {
+    width: 100px;
+  }
+  .nav_appointment {
+    display: none;
+  }
+  .menu_bar {
+    display: flex;
+  }
+  .navbar .menu {
+    display: none;
+  }
+  .hero_content img {
+    height: 130px;
+  }
+
+  /* overview */
+  .overview_content {
+    justify-content: center;
+    padding-top: 36px;
+  }
+  .overview_heading {
+    top: -36px;
+    justify-content: center;
+  }
+  .overview_heading h2 {
+    font-size: 20px;
+  }
+  .overview_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .middle_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .overview_content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

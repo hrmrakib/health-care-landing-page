@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- external css link -->
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+
     <!-- fontawesome kit -->
     <script src="https://kit.fontawesome.com/4e12486def.js" crossorigin="anonymous"></script>
     <title>Doctor Chamber</title>
@@ -17,7 +20,7 @@
         <div class="container">
             <header>
                 <nav class="navbar">
-                    <a href="#">
+                    <a href="#" class="logo">
                         <img src="images/logo dark.png" alt="logo">
                     </a>
 
@@ -29,9 +32,13 @@
                         <li><a href="#">About Us</a></li>
                     </ul>
 
-                    <button type="button" class="appointment_btn">
+                    <button type="button" class="appointment_btn nav_appointment">
                         Appointment <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </button>
+
+                    <div class="menu_bar">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </nav>
                 <!-- Hero Content -->
 
@@ -53,30 +60,36 @@
                         <p>Patient satisfaction rate, reflecting our commitment.</p>
                         <img src="./images/pie-chart.png" alt="">
                     </div>
-                    <div class="overview_box h-half">
+                    <div class="overview_box h_half">
                         <h2>500+</h2>
                         <p>Board-certified doctors</p>
-                        <img src="./images/book.png" alt="">
+                        <div class="half_img">
+                            <img src="./images/book.png" alt="">
+                        </div>
                     </div>
                     <div class="overview_box middle">
                         <h2>
                             4.8
                             <img class="star" src="./images/star.png" alt="">
                         </h2>
-                        <p>Over 20,000 Patient</p>
-                        <div class="person_images">
-                            <img src="./images/p1.jpg" alt="P-1" class="person">
-                            <img src="./images/p2.jpg" alt="P-2" class="person">
-                            <img src="./images/p3.jpg" alt="P-3" class="person">
-                            <img src="./images/p4.jpg" alt="P-4" class="person">
+                        <div class="middle_inner">
+                            <p>Over 20,000 Patient</p>
+                            <div class="person_images">
+                                <img src="./images/p1.jpg" alt="P-1">
+                                <img src="./images/p2.jpg" alt="P-2">
+                                <img src="./images/p3.jpg" alt="P-3">
+                                <img src="./images/p4.jpg" alt="P-4">
+                            </div>
                         </div>
 
                     </div>
-                    <div class="overview_box h-half">
+                    <div class="overview_box h_half">
                         <h2>$500</h2>
                         <p>Money spend
                             for poor patient</p>
-                        <img src="./images/money.png" alt="">
+                        <div class="half_img">
+                            <img src="./images/money.png" alt="">
+                        </div>
                     </div>
                     <div class="overview_box first_last">
                         <h2>90%</h2>
@@ -92,7 +105,7 @@
     <div class="container">
 
         <!-- Who we are -->
-        <section class="about_us">
+        <!-- <section class="about_us">
             <div class="about_left">
                 <button class="btn">Who we are</button>
                 <h2>We Help To Get <br /> Soultions</h2>
@@ -122,12 +135,12 @@
                         patient-centered.</p>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <!-- Service -->
 
-        <section class="service">
+        <!-- <section class="service">
             <div class="about_left service_content">
                 <button class="btn">Service</button>
                 <h2 class="service_title">Empowering Health, <br /> Enriching Lives</h2>
@@ -174,10 +187,10 @@
 
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- testimonal -->
-        <section class="testimonal">
+        <!-- <section class="testimonal">
             <button class="btn">Testimonial</button>
             <h2 class="testimonal_title">What they say about us</h2>
 
@@ -266,10 +279,10 @@
                     <i class="fa-solid fa-circle"></i>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- frequently ask question -->
-        <section class="faq">
+        <!-- <section class="faq">
             <button class="btn">Faq</button>
             <h2 class="faq_title">Frequntly Asked Question</h2>
 
@@ -296,11 +309,11 @@
                 </div>
 
             </div>
-        </section>
+        </section> -->
 
         <!-- discount (off) -->
 
-        <section class="discount">
+        <!-- <section class="discount">
             <div class="discount_container">
                 <div class="discount_content">
                     <h2>Get Your <br>
@@ -321,13 +334,13 @@
             <div class="discount_logo">
                 <img src="./images/logo light.png" alt="">
             </div>
-        </section>
+        </section> -->
 
     </div>
 
 
     <!-- footer -->
-
+    <!-- 
     <footer class="footer">
         <div class="container">
             <div class="footer_container">
@@ -374,7 +387,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
 
 </body>
 
