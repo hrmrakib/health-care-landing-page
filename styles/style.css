@@ -306,7 +306,8 @@ a {
 }
 .testimonal_container {
   margin-top: 45px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
   gap: 24px;
 }

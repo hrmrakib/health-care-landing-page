@@ -30,6 +30,39 @@
   .mission_card {
     left: 0;
   }
+  /* service */
+  .service {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .service .service_title {
+    font-size: 26px;
+    line-height: 45px;
+    margin-bottom: 10px;
+  }
+  .service .service_desc {
+    margin-bottom: 16px;
+  }
+
+  /* testimonial */
+  .testimonal_container {
+    margin-top: 45px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .testimonal_title {
+    font-size: 24px;
+  }
+  .testimonal_card {
+    background-color: #fffff5;
+    padding: 18px;
+    border-radius: 12px;
+  }
+  .testimonal_card h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
 }
 
 /* mobile responsive */
@@ -96,5 +129,21 @@
   .mission_card {
     left: 0;
     bottom: -100px;
+  }
+
+  /* service */
+  .service_card {
+    bottom: 0px;
+    left: 5px;
+    opacity: 0.9;
+    padding: 20px;
+  }
+  .service_card h2 {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  .service_card p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
