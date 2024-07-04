@@ -63,6 +63,14 @@
     font-weight: 600;
     margin-bottom: 12px;
   }
+
+  /* footer */
+  .footer_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    padding: 60px 0;
+    align-items: end;
+  }
 }
 
 /* mobile responsive */
@@ -177,5 +185,13 @@
   .btn_group {
     align-items: flex-start;
     flex-direction: column;
+  }
+  /* footer */
+  .footer_container {
+    grid-template-columns: 1fr;
+    gap: 80px;
+    padding: 60px 0;
+    align-items: center;
+    justify-content: center;
   }
 }
