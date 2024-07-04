@@ -72,8 +72,7 @@
     align-items: end;
   }
 }
-.mobile {
-}
+
 /* mobile responsive */
 @media screen and (max-width: 767px) {
   .container {
