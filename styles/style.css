@@ -31,7 +31,17 @@ body {
 }
 
 .top_blur {
-  background-color: #d3d3d3e0;
+  background: linear-gradient(
+    to bottom,
+    #efefef98,
+    #ececec,
+    #6a6a6a5a,
+    #6a6a6a42,
+    #d2d2d2,
+    #ebebeb,
+    #ebebeb,
+    #ffffff7b
+  );
 }
 
 /* navbar */
