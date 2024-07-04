@@ -176,7 +176,8 @@ a {
 
 /* Who we are - About us */
 .about_us {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: space-between;
   gap: 30px;
@@ -189,7 +190,7 @@ a {
   margin: 24px 0;
 }
 .about_left p {
-  max-width: 500px;
+  max-width: 80%;
   color: #4d4c7b;
   line-height: 22px;
   margin-bottom: 20px;
@@ -208,6 +209,9 @@ a {
 }
 .about_right {
   position: relative;
+}
+.about_right img {
+  width: 100%;
 }
 .mission_card {
   position: absolute;
