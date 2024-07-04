@@ -35,8 +35,24 @@ body {
     to bottom,
     #efefef98,
     #ececec,
-    #6a6a6a5a,
-    #6a6a6a42,
+    #6a6a6a5a 20%,
+    #d2d2d2 10%,
+    #6a6a6a42 25%,
+    #d2d2d2,
+    #ebebeb,
+    #ebebeb,
+    #ffffff7b
+  );
+}
+.discount_blur {
+  background: linear-gradient(
+    to bottom,
+    #efefef98,
+    #ececec,
+    #ececec,
+    #6a6a6a5a 20%,
+    #d2d2d2 10%,
+    #6a6a6a42 25%,
     #d2d2d2,
     #ebebeb,
     #ebebeb,
